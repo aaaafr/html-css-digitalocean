@@ -23,7 +23,7 @@ body {
 
 /* header */
 .logo > img{
-    width:40%;
+    width:100%;
 }
 
 .left_menu > ul , .right_menu > ul {
@@ -36,7 +36,7 @@ body {
 }
 
 .left_menu > ul {
-    justify-content: flex-start;
+    justify-content: flex-end;
 }
 
 .right_menu > ul {
@@ -57,6 +57,10 @@ ul > li > #sign{
     border: 1px solid #579AFF;
     border-radius: 5px;
     padding: 10px;
+}
+
+.bars {
+    display: none; 
 }
 
 
@@ -416,6 +420,7 @@ ul > li > #sign{
     flex-direction: row;
     font-size: 20px;
     border-bottom: 0.5px solid white;
+    width:95%;
 } 
 .riga2{
     display: flex;
@@ -488,6 +493,7 @@ ul > li > #sign{
     font-weight: 100;
     padding-top: 50px;
     width: 90%;
+    text-align: center;
 }
 
 .box p {
@@ -594,20 +600,6 @@ ul > li > #sign{
 .company li, .product li, .community li, .support li{
     padding-top:20px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
