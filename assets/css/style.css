@@ -6,7 +6,9 @@
 <i class="fab fa-youtube"></i>
 <i class="fab fa-instagram"></i> 
 <i class="fab fa-linkedin-in"></i>
-<i class="fas fa-bars"></i>*/
+<i class="fas fa-bars"></i>
+<i class="far fa-circle"></i>
+<i class="fas fa-circle"></i>*/
 
 *{ 
     box-sizing: border-box;
@@ -171,7 +173,6 @@ ul > li > #sign{
 /* SECONDA PARTE */
 .icons {
     background-color: #F3F5F9;
-    height: 520px;
 }
 
 .trust {
@@ -205,22 +206,410 @@ ul > li > #sign{
 }
 
 /* TERZA PARTE */
+.deploy_title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
-.deploy h2{
+.deploy_title h2{
     margin-top: 100px;
     padding-top: 50px;
     font-size: 60px;
-    text-align: center;
     color:#092252;
 }
 
-.deploy p{
+.deploy_title p{
     padding-top: 10px;
-    font-size: 30px;
-    text-align: center;
+    font-size: 40px;
     color:#75809C;
+    text-align:center;
+}
+.deploy .list{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
 }
 
-.deploy ul {
+.list ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 30px;
+    padding-left:10px;
     list-style: none;
+    border-left: 1px solid #CDCDCD;
 }
+
+.list > ul > li {
+    padding: 20px;
+    color:  #7F89A1;
+}
+
+.left_column, .right_column {
+    margin-top: 100px;
+    padding-left: 40px;
+}
+
+.cluster {
+    padding-bottom: 20px;
+}
+.tipes {
+    padding-bottom : 60px;
+}
+
+.left_column img, .right_column img {
+    width: 70px;
+    padding-bottom: 20px;;
+}
+
+.left_column h3, .right_column h3 {
+    font-size: 30px;
+    color: #092252;
+}
+
+.left_column p, .right_column p {
+    font-size: 25px;
+    color: #7F89A1;
+    padding-top: 20px;
+    width:70%;
+
+}
+
+/* QUARTA PARTE */
+.design {
+    margin-top: 70px;
+    background-color: #F3F5F9;;
+}
+.design_title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.design_title h1 {
+    font-size: 50px;
+    color:#092252;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.design_title p {
+    font-size: 30px;
+    color:#75809C;
+    padding-bottom: 50px;
+}
+
+.droplets {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-size: 50px;
+}
+
+.droplets i {
+    padding: 30px;
+    font-size: 80px;
+    color:#092252;
+}
+
+#clear {
+    color: #6F7B97;
+}
+
+.create {
+    display:flex;
+    justify-content: center;  
+}
+
+.create p {
+    color:#092252;
+    font-size: 25px;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+}
+
+.link a {
+    text-decoration: none;
+    color: #006AFF;
+    padding: 5px;
+    font-size: 20px;
+}
+
+
+/* QUINTA PARTE */
+
+.feat_title {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.feat_title h1 {
+    color:#092252;
+    font-size: 50px;
+}
+
+.column {
+    padding-top: 20px;
+}
+
+
+.pricing img, .world_class img, .platform img {
+    width: 70px;
+}
+
+.pricing h3, .world_class h3, .platform h3 {
+    font-size: 35px;
+    color:#092252;
+    padding-top: 20px;
+}
+
+.pricing p, .world_class p, .platform p {
+    font-size: 25px;
+    color: #75809C;
+    padding-top: 20px;
+    width: 80%;
+
+}
+
+.pricing a, .world_class a, .platform a{
+    font-size: 25px;
+    color:#217DFF;
+    position: absolute;
+}
+
+.column a {
+    position: relative;
+    top: 20px;
+}
+
+/* SESTA PARTE */
+.service {
+    background: linear-gradient(180deg, #0047C5 0%, #00209B 100%); 
+    margin-top: 100px;
+}
+
+.service_title {
+    display: flex;
+    justify-content: center;
+}
+
+.service h1{
+    padding-top: 50px;
+    color: white;
+    font-size: 60px;
+}
+
+.col-right, .col-left {
+    display: flex;
+    flex-direction: column; 
+}
+
+.riga1 {
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    border-bottom: 0.5px solid white;
+} 
+.riga2{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    border-bottom: 0.5px solid white;
+}
+.code {
+    display: flex;
+    justify-content: flex-start;
+    color: white;
+}
+
+.city {
+    display: flex;
+    justify-content: flex-start;
+    color:#BACCFF;
+}
+
+.test a{
+    display: flex;
+    justify-content: flex-end;
+    color:#00CDCF;
+    text-decoration: none;
+}
+
+
+/* SETTIMA PARTE */
+
+.teams {
+    background-color: #F3F5F9;
+}
+
+.teams_title h1{
+    font-size: 50px;
+    color:#092252;
+    text-align: center;
+    padding-top: 50px;
+}
+.rocker_box {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-size: 50px;
+}
+
+.box {
+    width:40%;
+    height: 500px;
+    background-color: white;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:50px;
+
+}
+
+.box img {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    
+}
+
+.box h3 {
+    color: #5D6B89;
+    font-size: 30px;
+    font-weight: 100;
+    padding-top: 50px;
+    width: 90%;
+}
+
+.box p {
+    color:#092252;
+    font-size: 20px;
+    padding-top:10px;
+}
+
+#bolder {
+    font-weight: bolder;
+}
+
+.box a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #0B71FF;
+    padding-top:20px;
+}
+
+/* OTTAVA PARTE */
+
+.start {
+    background: linear-gradient(180deg, #0047C5 0%, #00209B 100%);
+}
+
+.create_account {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top:50px;
+    padding-bottom: 60px;
+}
+
+
+.create_account h1 {
+    font-size: 50px;
+    color: white;
+    padding-top: 50px;
+}
+
+.create_account a {
+    background-color: white;
+    color: #0B71FF;
+    text-decoration: none;
+    font-size: 30px;
+    border-radius: 10px;
+    padding: 30px;
+    margin-top: 40px;
+}
+
+
+/* FOOTER */
+
+.site_footer {
+    background-color: #031C4E;
+}
+
+.foot_logo {
+    margin-top: 50px; 
+}
+
+.foot_logo img {
+    width:80px;
+    padding-bottom: 10px;
+}
+.foot_logo p{
+    font-size: 20px;
+    color: #8892A7;
+}
+
+#dark {
+    color: #505F80;
+}
+
+
+.foot_logo ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 30px;
+    color: #7A859D;
+    list-style: none;
+    width: 30%;
+    padding-top:10px;
+}
+
+.company, .product, .community, .support {
+    margin-top: 50px;
+}
+
+.company h4, .product h4, .community h4, .support h4{
+    font-size: 25px;
+    color: white;
+}
+
+
+.company ul, .product ul, .community ul, .support ul {
+    color: #A2AABA;
+    list-style: none;
+    font-size: 20px;
+}
+
+.company li, .product li, .community li, .support li{
+    padding-top:20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
